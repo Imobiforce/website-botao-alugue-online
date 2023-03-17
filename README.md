@@ -5,8 +5,7 @@
 ### Credenciais
 
 ```js
-var userId: Solicitar
-var companyId: Solicitar
+Solicitar credenciais
 ```
 
 ### Exemplo:
@@ -17,8 +16,6 @@ var companyId: Solicitar
 
 imobiforce({
     'config': {
-        'company_id': companyId,
-        'user_id': userId,
         'goal': 'rental', // rental, sale, season
         'preview': 'proposal' // proposal, visit, rent-online
     },
