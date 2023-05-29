@@ -16,19 +16,22 @@ Solicitar credenciais
 
 imobiforce({
     'config': {
+        'company_id': 1,
+        'user_id': 1,
         'goal': 'rental', // rental, sale, season
-        'preview': 'proposal' // proposal, visit, rent-online
+        'preview': 'visit' // proposal, visit, rent-online
     },
     'button': {
         'background-color': '#00AC30',
         'color': 'white',
-        'title': 'Alugue online',
-        'location': 'alugue-online' // id do elemento
+        'title': 'Faça uma visita',
+        'location': 'visit-online'
     },
     'property': {
-        'code': 2165,
+        'code': 2166,
         'type': 'Casa',
-        'url': 'https://mount.samisistemas.com.br/vendas/Foto_115_282002_1.jpg',
+        'url_file': 'https://imobiforce.com.br/wp-content/uploads/2023/05/Logo-mobiforce-CRM-Imobiliario-com-sistema-de-vendas.png',
+        'url': 'https://sites.whmsam.com.br/ModelosImobiliarios/imobiforce/detalhes-imovel-locacao.php?id_imovel=767',
         'address': 'ANDRADAS',
         'number': '1294',
         'complement': 'PREDIO',
