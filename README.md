@@ -16,8 +16,7 @@ Solicitar credenciais
 
 imobiforce({
     'config': {
-        'company_id': 1,
-        'user_id': 1,
+        Solicitar
         'goal': 'rental', // rental, sale, season
         'preview': 'visit' // proposal, visit, rent-online
     },
